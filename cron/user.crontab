@@ -20,6 +20,6 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-0 0 * * * /home/pi/internet_monitor/cron/archive.sh
-* * * * * /home/pi/internet_monitor/cron/serve.sh
-* * * * * /home/pi/internet_monitor/cron/ping.sh
+0 0 * * * /home/inet_mon/internet_monitor/cron/archive.sh
+* * * * * /home/inet_mon/internet_monitor/cron/serve.sh
+* * * * * /home/inet_mon/internet_monitor/cron/ping.sh
