@@ -1,6 +1,6 @@
 #!/bin/bash
-
-DIR=/home/pi/internet_monitor
+ORIG_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR=$ORIG_DIR/../
 
 echo '<link rel="stylesheet" href="base-min.css">' > $DIR/output/index.html
 echo '<meta name="viewport" content="width=device-width, initial-scale=1">' >> $DIR/output/index.html
