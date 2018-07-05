@@ -17,4 +17,5 @@ sudo su - inet_mon
 ```
 
 Everything will be in the home directory of that user. Finally, uninstall
-by running [uninstall.sh](uninstall.sh).
+by running [uninstall.sh](uninstall.sh). This will also delete all the data
+that was collected.
